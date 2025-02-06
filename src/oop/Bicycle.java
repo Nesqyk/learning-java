@@ -20,7 +20,7 @@ class Bicycle {
         area = Math.PI * radius * radius;
         circumference = 2 * Math.PI * area;
 
-        DecimalFormat df = new DecimalFormat("%.000");
+        DecimalFormat df = new DecimalFormat("0.00");
 
         String message = "Radius: " + df.format(radius) + "\nArea: " + df.format(area) + "\nCircumference: " + df.format(circumference);
 

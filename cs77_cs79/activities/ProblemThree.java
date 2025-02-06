@@ -12,7 +12,6 @@ import javax.swing.JOptionPane;
 
     public static void main(String[] args) {
 
-
         String inputSting = JOptionPane.showInputDialog("Entre a 3-digit number: ");
 
         int parseInt = Integer.parseInt(inputSting);
