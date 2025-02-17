@@ -24,7 +24,7 @@ import javax.swing.JOptionPane;
         "\nThe middle digit of " + parseInt + "is: "+ middleDigit +
         "\nThe tail digit of " + parseInt + "is: " + tailDigit;
 
-        JOptionPane.showMessageDialog(null, outputMsg, "Output", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, outputMsg, "Output", JOptionPane.PLAIN_MESSAGE);
         
     }
  }
