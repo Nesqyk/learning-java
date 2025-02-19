@@ -1,3 +1,4 @@
+package random;
 // import javax.swing.*;
 import java.util.*;
 

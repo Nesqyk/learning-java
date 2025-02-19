@@ -1,3 +1,4 @@
+package random;
 /*
  * Programmer: Tabornal, Tyrone M.
  * Description: This program takes basketball scores for five players as 

@@ -1,3 +1,4 @@
+package random;
 public class ForEachExample {
 
     public static void main(String[] args) {

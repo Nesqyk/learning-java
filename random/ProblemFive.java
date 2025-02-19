@@ -1,3 +1,4 @@
+package random;
 /*
  * Programmer: Tabornal, Tyrone M.
  * Description: Displays the input letter and its corresponding digit in a message dialog.

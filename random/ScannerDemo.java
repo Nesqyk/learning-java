@@ -1,3 +1,4 @@
+package random;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 import java.text.DecimalFormat;

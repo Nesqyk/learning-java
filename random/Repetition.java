@@ -1,3 +1,4 @@
+package random;
 
 import java.util.Scanner;
 
@@ -13,6 +14,12 @@ public class Repetition {
         pyramidPattern();
 
         floydsTriangle();
+
+        printPyramid(5);
+        printLeftPyramid(5);
+        printInvertedPyramid(5);
+        printFloydsTriangle(5);
+        countingNumbers(20);
     }
 
     // Example of Counter While Loop
@@ -228,7 +235,7 @@ public class Repetition {
 
             for(int k = 0; k < (2 * i - 1); k++)
             {
-                System.out.print("*");
+                System.out.print("* ");
             }
 
             System.err.println();
@@ -255,6 +262,91 @@ public class Repetition {
             }
 
             System.err.println();
+        }
+    }
+
+
+    // Read User for Max Row
+    // Pyramid 
+    static void printPyramid(int max)
+    {
+        for(int i = 0 ; i <= max; i++)
+        { 
+            // prints spaces
+            for(int j = 0; j < max-i; j++)
+            {
+                System.out.print(" ");
+            }
+
+            for(int k = 0 ; k < i; k++)
+            {
+                System.out.print("*");
+                
+                if(k < i)
+                {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    static void printLeftPyramid(int max)
+    {
+        for(int i = 0 ; i <= max; i++)
+        {
+            for(int j = 0 ; j < i; j++)
+            {
+                System.err.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    static void printInvertedPyramid(int max)
+    {
+        System.err.println();
+        for(int i = 0 ; i <= max; i++)
+        {
+            for(int j = 0; j <= max-i; j++)
+            {
+                System.out.printf("*");
+            }
+            System.err.println();
+        }
+    }
+
+    static void printFloydsTriangle(int max)
+    {
+        System.out.println();
+        int number = 1;
+        for(int i = 0; i <= max; i++)
+        {
+            for(int j = 0 ; j < i; j++)
+            {
+                System.out.printf("%d ", number);
+                number++;
+            }
+            System.err.println();
+        }
+    }
+
+    static void countingNumbers(int max)
+    {
+
+        if(max > 50 || max < 0)
+        {
+            System.out.println("Please input numbers from 0-50");
+        }
+
+        for(int i = 0 ; i < max; i++)
+        {
+            System.out.printf("%d ", i);
+
+            if((i + 1) % 10 == 0)
+            {
+                System.out.println();
+            }
         }
     }
 }
