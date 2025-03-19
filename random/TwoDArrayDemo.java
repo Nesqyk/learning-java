@@ -109,7 +109,7 @@ public class TwoDArrayDemo {
         int a = 1;
         int b = 1;
         int sum = 0;
-        for(int i = 0 ; i < 3;i ++)
+        for(int row = 0 ; row < 3;row ++)
         {
             sum += a++ + ++b;
         }
@@ -149,9 +149,9 @@ public class TwoDArrayDemo {
     static void guess()
     {
         int sum = 0;
-        for(int i = 0 ; i < 3;i ++)
+        for(int row = 0 ; row < 3;row ++)
         {
-            sum += ++i;
+            sum += ++row;
         }
 
         System.err.println(sum);
@@ -167,11 +167,11 @@ public class TwoDArrayDemo {
     static void test()
     {
         int sum = 0;
-        for(int i = 0 ; i < 3; ++i)
+        for(int row = 0 ; row < 3; ++row)
         {
-            for(int j = 0 ; j < 2; j++)
+            for(int col = 0 ; col < 2; col++)
             {
-                sum += i++ + ++j;
+                sum += row++ + ++col;
             }
         }
 
@@ -185,11 +185,11 @@ public class TwoDArrayDemo {
             {8, 1, 9}
         };
 
-        for(int i = 0 ; i < list.length; i++) // ROW
+        for(int row = 0 ; row < list.length; row++) // ROW
         {
-            for(int j = 0;  j < list[i].length; j++) // COLUMN
+            for(int col = 0;  col < list[row].length; col++) // COLUMN
             {
-                System.out.print(list[i][j]);
+                System.out.print(list[row][col]);
             }
             System.err.println();
         }
@@ -218,6 +218,29 @@ public class TwoDArrayDemo {
                 sum += matrix[row][col];
             }
             System.out.println("Sum of Elements of Row : " + (row + 1) + " = " +  sum);
+        }
+    }
+
+    static void largestInRows(int[][] matrix)
+    {
+        int largest;
+        // Loop through each row in the matrix
+        for (int row = 0; row < matrix.length; row++)
+        {
+            // Assume the first element of the row is the largest
+            largest = matrix[row][0];
+
+            // Loop through each column in the current row
+            for (int col = 0; col < matrix[row].length; col++) // <-- FIXED THIS PART
+            {
+                // Update 'largest' if a bigger element is found
+                if (largest < matrix[row][col])
+                {
+                    largest = matrix[row][col];
+                }
+            }
+            // Print the largest element in the current row
+            System.out.println("The largest element for row " + (row + 1) + " is : " + largest);
         }
     }
 }

@@ -1,0 +1,150 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MatrixOperations",
+      "request": "launch",
+      "mainClass": "cs77_cs79.arrays.MatrixOperations",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "MatrixSimulation",
+      "request": "launch",
+      "mainClass": "cs77_cs79.arrays.MatrixSimulation",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "TestStudentP",
+      "request": "launch",
+      "mainClass": "cs77_cs79.oop.TestStudentP",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "TestStudent",
+      "request": "launch",
+      "mainClass": "cs77_cs79.oop.TestStudent",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "MatrixSum",
+      "request": "launch",
+      "mainClass": "cs77_cs79.arrays.MatrixSum",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "GradeCounter",
+      "request": "launch",
+      "mainClass": "cs77_cs79.arrays.GradeCounter",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "PracticeTwo",
+      "request": "launch",
+      "mainClass": "practice.practical.PracticeTwo",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "PracticeOne",
+      "request": "launch",
+      "mainClass": "practice.practical.PracticeOne",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "MathPractice",
+      "request": "launch",
+      "mainClass": "cs77_cs79.math.MathPractice",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "cs77_cs79.math.Test",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "LoginSystem",
+      "request": "launch",
+      "mainClass": "LoginSystem",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "IceCreamShop",
+      "request": "launch",
+      "mainClass": "IceCreamShop",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "CableBillCalculator",
+      "request": "launch",
+      "mainClass": "quiz.CableBillCalculator",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "CustomerBill",
+      "request": "launch",
+      "mainClass": "quiz.CustomerBill",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Sales",
+      "request": "launch",
+      "mainClass": "Sales",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "LateCalculator",
+      "request": "launch",
+      "mainClass": "LateCalculator",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "JavaPractice",
+      "request": "launch",
+      "mainClass": "practice.loops.JavaPractice",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
