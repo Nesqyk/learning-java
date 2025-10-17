@@ -3,6 +3,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "insertion",
+      "request": "launch",
+      "mainClass": "algo_exercise.insertion",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Selection",
+      "request": "launch",
+      "mainClass": "Selection",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Tests",
+      "request": "launch",
+      "mainClass": "Tests",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "HealthRecord",
+      "request": "launch",
+      "mainClass": "HealthRecord",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "ShiftMatrix",
+      "request": "launch",
+      "mainClass": "ShiftMatrix",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Traversal",
+      "request": "launch",
+      "mainClass": "practice.Traversal",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "Practice",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "FitnessTracker",
+      "request": "launch",
+      "mainClass": "course.oop.FitnessTracker",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "StudentCredit",
+      "request": "launch",
+      "mainClass": "course.oop.StudentCredit",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "Credits",
+      "request": "launch",
+      "mainClass": "course.oop.Credits",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
+      "name": "MathClubManager",
+      "request": "launch",
+      "mainClass": "course.oop.MathClubManager",
+      "projectName": "learning-java_57553d87"
+    },
+    {
+      "type": "java",
       "name": "MatrixOperations",
       "request": "launch",
       "mainClass": "cs77_cs79.arrays.MatrixOperations",
